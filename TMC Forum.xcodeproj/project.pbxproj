@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB0D2D11CB1953F00129E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0D2D01CB1953F00129E6C /* AppDelegate.swift */; };
+		FAB0D2D31CB1953F00129E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0D2D21CB1953F00129E6C /* ViewController.swift */; };
+		FAB0D2D61CB1953F00129E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0D2D41CB1953F00129E6C /* Main.storyboard */; };
+		FAB0D2D81CB1953F00129E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0D2D71CB1953F00129E6C /* Assets.xcassets */; };
+		FAB0D2DB1CB1953F00129E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0D2D91CB1953F00129E6C /* LaunchScreen.storyboard */; };
+		FAB0D2E91CB2E6C700129E6C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FAB0D2E81CB2E6C700129E6C /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB0D2CD1CB1953F00129E6C /* TMC Forum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMC Forum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB0D2D01CB1953F00129E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB0D2D21CB1953F00129E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB0D2D51CB1953F00129E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB0D2D71CB1953F00129E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB0D2DA1CB1953F00129E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB0D2DC1CB1953F00129E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0D2E81CB2E6C700129E6C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB0D2CA1CB1953F00129E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB0D2C41CB1953F00129E6C = {
+			isa = PBXGroup;
+			children = (
+				FAB0D2CF1CB1953F00129E6C /* TMC Forum */,
+				FAB0D2CE1CB1953F00129E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB0D2CE1CB1953F00129E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0D2CD1CB1953F00129E6C /* TMC Forum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB0D2CF1CB1953F00129E6C /* TMC Forum */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0D2D01CB1953F00129E6C /* AppDelegate.swift */,
+				FAB0D2D21CB1953F00129E6C /* ViewController.swift */,
+				FAB0D2D41CB1953F00129E6C /* Main.storyboard */,
+				FAB0D2D71CB1953F00129E6C /* Assets.xcassets */,
+				FAB0D2D91CB1953F00129E6C /* LaunchScreen.storyboard */,
+				FAB0D2DC1CB1953F00129E6C /* Info.plist */,
+				FAB0D2E81CB2E6C700129E6C /* Settings.bundle */,
+			);
+			path = "TMC Forum";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB0D2CC1CB1953F00129E6C /* TMC Forum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB0D2DF1CB1953F00129E6C /* Build configuration list for PBXNativeTarget "TMC Forum" */;
+			buildPhases = (
+				FAB0D2C91CB1953F00129E6C /* Sources */,
+				FAB0D2CA1CB1953F00129E6C /* Frameworks */,
+				FAB0D2CB1CB1953F00129E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TMC Forum";
+			productName = "TMC Forum";
+			productReference = FAB0D2CD1CB1953F00129E6C /* TMC Forum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB0D2C51CB1953F00129E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "OuterSoft, Inc.";
+				TargetAttributes = {
+					FAB0D2CC1CB1953F00129E6C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FAB0D2C81CB1953F00129E6C /* Build configuration list for PBXProject "TMC Forum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB0D2C41CB1953F00129E6C;
+			productRefGroup = FAB0D2CE1CB1953F00129E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB0D2CC1CB1953F00129E6C /* TMC Forum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB0D2CB1CB1953F00129E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0D2E91CB2E6C700129E6C /* Settings.bundle in Resources */,
+				FAB0D2DB1CB1953F00129E6C /* LaunchScreen.storyboard in Resources */,
+				FAB0D2D81CB1953F00129E6C /* Assets.xcassets in Resources */,
+				FAB0D2D61CB1953F00129E6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB0D2C91CB1953F00129E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0D2D31CB1953F00129E6C /* ViewController.swift in Sources */,
+				FAB0D2D11CB1953F00129E6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB0D2D41CB1953F00129E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB0D2D51CB1953F00129E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB0D2D91CB1953F00129E6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB0D2DA1CB1953F00129E6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB0D2DD1CB1953F00129E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB0D2DE1CB1953F00129E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB0D2E01CB1953F00129E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TMC Forum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outersoft.TMC-Forum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB0D2E11CB1953F00129E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TMC Forum/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.outersoft.TMC-Forum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB0D2C81CB1953F00129E6C /* Build configuration list for PBXProject "TMC Forum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0D2DD1CB1953F00129E6C /* Debug */,
+				FAB0D2DE1CB1953F00129E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB0D2DF1CB1953F00129E6C /* Build configuration list for PBXNativeTarget "TMC Forum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0D2E01CB1953F00129E6C /* Debug */,
+				FAB0D2E11CB1953F00129E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB0D2C51CB1953F00129E6C /* Project object */;
+}
